@@ -13,3 +13,12 @@ function johnLennonFacts(facts){
   }
   return exclamation
 }
+
+function iLoveTheBeatles(n){
+  var beatlesReview = []
+  do {
+    beatlesReview.push(`I love the Beatles!`);
+    n++;
+  } while (n<15);
+  return beatlesReview
+}
