@@ -8,9 +8,8 @@ function theBeatlesPlay(musicians, instruments){
 
 function johnLennonFacts(facts){
   var exclamation = []
-  for(let i=0, i<facts.length, i++){
+  for(let i=0; i<facts.length; i++){
     exclamation.push(`${facts[i]}!!!`)
   }
   return exclamation
 }
-
